@@ -1,0 +1,153 @@
+/*
+Theme Name: Best City Guide
+Theme URI: https://qwick.info/GoldTaurus/BestCityGuide
+Author: Treehouse and Robbie Thomas
+Author URI: https://www.teamtreehouse.com
+Description: This website is an example made by Treehouse (the HTML & CSS). Robbie Thomas is a rookie WordPress Developer attempting to bring this website called Best City Guide to life on WordPress.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: BestCityGuide
+Tags: right-sidebar
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* ================================= 
+  Base Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.5em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.name,
+.main-nav li {
+	background: #fff;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.name a,
+.main-nav a {
+  padding: 10px 15px; 
+  display: block;
+}
+
+/* ---- Layout Containers ---- */
+
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.main-header {
+  text-align: center;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: #3acec2;
+	margin-bottom: 30px;
+}
+
+.main-footer {
+	text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.wrap {
+		min-height: calc(100vh - 89px);
+	}
+
+	.container {
+		width: 90%;
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+
+  .name,
+  .main-nav,
+  .main-nav li {
+    display: inline-block; 
+}
+
+  .name {
+    width: 240px;
+    margin-right: 50px;
+}
+
+  .main-nav li {
+    margin-right: 12px; 
+ }
+
+  .primary {
+    display: inline-block;
+    width: 66%;
+    margin-right: -4px;  
+    padding-left: 1em;
+    padding-right: 1em;
+    vertical-align: top;
+}
+
+  .sidebar {
+    width: 30%;
+    float: right;
+    margin-right: -4px;  
+    padding-left: 1em;
+    padding-right: 1em;
+    vertical-align: top;
+  }
+
+}
