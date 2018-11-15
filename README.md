@@ -19,5 +19,6 @@ I'm attempting to bring a Best City Guide Theme to WordPress. I'll be updating t
 
 HISTORY
 2018 Nov 5 - Did the basics, plus the loop. Don't have navigation down at this time.
+2018 Nov 15 - Added page.php nad got the navigation down. Had troubles with sidebar.php (didn't upload that), I need to do some troubleshooting.
 
 Robbie Thomas
