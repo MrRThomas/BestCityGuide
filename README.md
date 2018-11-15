@@ -1,6 +1,6 @@
 # BestCityGuide
 Best City Guide is a website you co-create with TreeHouse. I'm just attempting to make it WordPress ready.
-
+<BR>
 NOTE
 Normalize.css wasn't creeated by me. Here is the link to the file and information about it's creator:
 
